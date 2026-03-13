@@ -8,6 +8,9 @@ Free-only policy: if a resource is fully/primarily paid, do not list it here.
 - Anna University: https://www.annauniv.edu
 - AU COE (exam related): https://aucoe.annauniv.edu
 
+## Start Here
+- Click and Study plan (direct semester links): ./CLICK_AND_STUDY.md
+
 ## Core Free Courses (Semester Subjects)
 - NPTEL main: https://nptel.ac.in
 - MIT OpenCourseWare main: https://ocw.mit.edu
