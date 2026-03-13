@@ -1,498 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Anna University Regulation 2017 IT Department notes, lab notes, PYQ practice, interview notes, and resources.">
+    <title>Anna University R2017 IT Notes Portal</title>
 
-    <title>IT Semester 6</title>
-
-    <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
     <link href="css/freelancer.min.css" rel="stylesheet">
-
-    <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <style>
+        .resource-card {
+            background: #ffffff;
+            border: 1px solid #e3e3e3;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            min-height: 220px;
+        }
 
+        .resource-card h4 {
+            margin-top: 0;
+        }
+
+        .resource-card ul {
+            padding-left: 18px;
+            margin-bottom: 0;
+        }
+
+        .notice {
+            background: #f7f9fb;
+            border-left: 4px solid #2c3e50;
+            padding: 14px;
+            margin-top: 20px;
+        }
+
+        .sem-table th,
+        .sem-table td {
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .small-muted {
+            color: #6b6b6b;
+            font-size: 14px;
+        }
+    </style>
 </head>
 
 <body id="page-top" class="index">
-
-    <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Department of IT</a>
+                <a class="navbar-brand" href="#page-top">IT R2017 Portal</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#portfolio">Notes</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#about">Information</a>
-                    </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contact</a>
-                    </li>
+                    <li class="hidden"><a href="#page-top"></a></li>
+                    <li class="page-scroll"><a href="#syllabus">Syllabus</a></li>
+                    <li class="page-scroll"><a href="#notes">Notes</a></li>
+                    <li class="page-scroll"><a href="#pyq">PYQ & QA</a></li>
+                    <li class="page-scroll"><a href="#lab">Lab Notes</a></li>
+                    <li class="page-scroll"><a href="#interview">Interview</a></li>
+                    <li class="page-scroll"><a href="#resources">Resources</a></li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container-fluid -->
     </nav>
 
-    <!-- Header -->
     <header>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="img/image.png" alt="" height="30%" width="30%">
                     <div class="intro-text">
-                        <span class="name">Department of IT</span>
+                        <span class="name">Anna University IT (Regulation 2017)</span>
                         <hr class="star-light">
-                        <span class="skills">An portal for sharing notes and information.<br> For the students, by the students.</span>
+                        <span class="skills">Organized hub for semester notes, previous year practice questions, lab records, interview prep, and learning resources.</span>
                     </div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
+    <section id="syllabus">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Subjects</h2>
+                    <h2>R2017 IT Semester Map</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/mobile.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/ai.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cd.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/ds.jpg" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/sa.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/tqm.png" class="img-responsive" alt="">
-                    </a>
+                <div class="col-lg-12">
+                    <table class="table table-bordered sem-table">
+                        <thead>
+                            <tr>
+                                <th>Semester</th>
+                                <th>What To Store Here</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Semester 1</td><td>Maths, Physics/Chemistry, basic engineering notes and solved questions.</td></tr>
+                            <tr><td>Semester 2</td><td>Programming fundamentals, engineering science, model question sets.</td></tr>
+                            <tr><td>Semester 3</td><td>Data structures, DBMS basics, digital systems, lab record PDFs.</td></tr>
+                            <tr><td>Semester 4</td><td>OOP, OS, DBMS, theory notes + 2/16 mark practice files.</td></tr>
+                            <tr><td>Semester 5</td><td>CN, TOC, web/app dev, lab manuals and viva questions.</td></tr>
+                            <tr><td>Semester 6</td><td>Compiler Design, AI, Data Science, software engineering notes.</td></tr>
+                            <tr><td>Semester 7</td><td>Electives, project phase docs, placement prep and interview sheets.</td></tr>
+                            <tr><td>Semester 8</td><td>Final project docs, practical prep, core interview revision notes.</td></tr>
+                        </tbody>
+                    </table>
+                    <p class="small-muted">Use this page as the index. Keep actual files in your local materials folder and update links below.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="success" id="about">
+    <section class="success" id="notes">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Information</h2>
+                    <h2>Class Notes</h2>
                     <hr class="star-light">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>12.01.2017 DCT Compiler Design.<br>2 mark<br>2 mark<br>16 mark</p>
+                <div class="col-md-4">
+                    <div class="resource-card">
+                        <h4>Unit-wise Notes</h4>
+                        <ul>
+                            <li>Unit 1 to Unit 5 short notes</li>
+                            <li>Important derivations and diagrams</li>
+                            <li>Quick one-page revision sheets</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <p>Lab Material</p>
+                <div class="col-md-4">
+                    <div class="resource-card">
+                        <h4>Exam Prep Packs</h4>
+                        <ul>
+                            <li>2-mark frequently asked questions</li>
+                            <li>16-mark answer frameworks</li>
+                            <li>Last-minute checklist for each subject</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-8 col-lg-offset-2 text-center">
+                <div class="col-md-4">
+                    <div class="resource-card">
+                        <h4>Suggested Structure</h4>
+                        <ul>
+                            <li>materials/r2017-it/semester-*/notes</li>
+                            <li>filename format: subject-unit-topic.pdf</li>
+                            <li>keep one index file per semester</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
+    <section id="pyq">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Contact Us</h2>
+                    <h2>Previous Year Question Practice</h2>
                     <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Phone Number</label>
-                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <div class="row control-group">
-                            <div class="form-group col-xs-12 floating-label-form-group controls">
-                                <label>Message</label>
-                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                        </div>
-                        <br>
-                        <div id="success"></div>
-                        <div class="row">
-                            <div class="form-group col-xs-12">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
-                            </div>
-                        </div>
-                    </form>
+                <div class="col-lg-6">
+                    <h4>What To Collect</h4>
+                    <ul>
+                        <li>University exam question papers by year and semester.</li>
+                        <li>Model papers and internal exam papers.</li>
+                        <li>Topic-wise grouped repeated questions.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <h4>How To Store Answers</h4>
+                    <ul>
+                        <li>Create your own solved answer notes for each paper.</li>
+                        <li>Store expected key points rather than long copied text.</li>
+                        <li>Add marks split: 2-mark, 8-mark, 13-mark, 15/16-mark.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="notice">
+                This portal intentionally avoids reproducing copyrighted question papers or answer keys directly.
+                Add only official/public-domain material or your own prepared solutions.
+            </div>
+        </div>
+    </section>
+
+    <section class="success" id="lab">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Lab Notes and Viva</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="resource-card">
+                        <h4>Lab Record Checklist</h4>
+                        <ul>
+                            <li>Aim, algorithm, program, output, result format</li>
+                            <li>Common viva questions per experiment</li>
+                            <li>Error log and debugging notes per lab</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="resource-card">
+                        <h4>Suggested Lab Subjects</h4>
+                        <ul>
+                            <li>Data Structures Lab</li>
+                            <li>DBMS Lab</li>
+                            <li>OS / System Software Lab</li>
+                            <li>Network / Web Technology Lab</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <section id="interview">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Interview Notes</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="resource-card">
+                        <h4>Core CS</h4>
+                        <ul>
+                            <li>OS process/thread, scheduling, deadlocks</li>
+                            <li>DBMS normalization, indexing, transactions</li>
+                            <li>CN layers, protocols, TCP/IP basics</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="resource-card">
+                        <h4>Coding</h4>
+                        <ul>
+                            <li>Arrays, strings, linked list, trees, graphs</li>
+                            <li>Recursion, dynamic programming, greedy</li>
+                            <li>Complexity analysis and edge cases</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="resource-card">
+                        <h4>Placement Round Notes</h4>
+                        <ul>
+                            <li>Aptitude formulas and shortcuts</li>
+                            <li>HR questions with sample points</li>
+                            <li>Project explanation template</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="success" id="resources">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Resources</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul>
+                        <li><a href="materials/r2017-it/README.md" target="_blank" rel="noopener">Local R2017 IT Materials Index</a></li>
+                        <li><a href="materials/r2017-it/SEMESTER_RESOURCE_MAP.md" target="_blank" rel="noopener">Semester-wise Open Resource Map</a></li>
+                        <li><a href="materials/r2017-it/RESOURCES.md" target="_blank" rel="noopener">Local Interview and Learning Resources List</a></li>
+                        <li><a href="https://www.annauniv.edu" target="_blank" rel="noopener">Anna University Official Website</a></li>
+                        <li><a href="https://aucoe.annauniv.edu" target="_blank" rel="noopener">Anna University COE Portal</a></li>
+                        <li><a href="https://nptel.ac.in" target="_blank" rel="noopener">NPTEL Courses (Core IT/CS subjects)</a></li>
+                        <li><a href="https://ocw.mit.edu" target="_blank" rel="noopener">MIT OpenCourseWare</a></li>
+                        <li><a href="https://github.com/ossu/computer-science" target="_blank" rel="noopener">OSSU CS Open Curriculum</a></li>
+                        <li><a href="https://www.geeksforgeeks.org/gate/original-gate-previous-year-question-papers-cse-and-it-gq/" target="_blank" rel="noopener">GATE CSE/IT Previous Year Papers and Keys</a></li>
+                        <li><a href="https://www.geeksforgeeks.org/interview-prep/interview-corner/" target="_blank" rel="noopener">GeeksforGeeks Interview Corner (Free)</a></li>
+                        <li><a href="https://takeuforward.org" target="_blank" rel="noopener">takeUforward Interview Preparation</a></li>
+                        <li><a href="https://github.com/jwasham/coding-interview-university" target="_blank" rel="noopener">Coding Interview University (Open Source)</a></li>
+                        <li><a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noopener">Free Programming Books (Open Source)</a></li>
+                    </ul>
+                    <p class="small-muted">Only free/open resources are listed here. Replace generic links with direct subject-specific free links as you finalize semester collections.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer class="text-center">
         <div class="footer-below">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Department of IT 2017
+                        Department of IT - Regulation 2017 Resource Portal
                     </div>
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
-
 </body>
-
 </html>
+
