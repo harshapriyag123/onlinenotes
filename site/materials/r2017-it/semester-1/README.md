@@ -14,3 +14,8 @@
 - [ ] PYQ sets organized
 - [ ] Lab notes complete
 - [ ] Interview notes updated
+
+
+## Direct Resource Pack
+- RESOURCE_PACK.md (free/public links for this semester)
+
